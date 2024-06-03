@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --BGCOLOR: #000000;
+    --SECONDCOLOR: #00b9fc;
+}
+.dark-mode{
+  --BGCOLOR:#000000;
+  --SECONDCOLOR:#00b9fc;
+}
+.light-mode{
+  --BGCOLOR:#ffffff;
+  --SECONDCOLOR:#000080;
+}
+
+body{
+  background-color: var(--BGCOLOR);
+}
+
+.navbar{
+  /* background-color: #00bfff00; */
+  box-shadow:0px 0px 8px 2px var(--SECONDCOLOR);
+  width: 50%;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  /* border: 2px solid gray; */
+
+  /*
+  * Created with https://www.css-gradient.com
+  * Gradient link: https://www.css-gradient.com/?c1=00b9fc&c2=0a0a0a&gt=r&gd=dcc
+  */
+    /* background: #00B9FC; */
+    background: radial-gradient(at center, #00b9fc9c, #0a0a0a40);
+}
+
+.nav-btn{
+  border: none;
+  background-color: transparent;
+  
+  /* color: #bdb2b2; */
+  color:var(--SECONDCOLOR);
+  
+}
