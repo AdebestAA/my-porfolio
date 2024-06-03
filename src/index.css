@@ -23,7 +23,7 @@ body{
 
 .navbar{
   /* background-color: #00bfff00; */
-  box-shadow:0px 0px 8px 2px var(--SECONDCOLOR);
+  box-shadow:0px 0px 10px 1px var(--SECONDCOLOR);
   width: 50%;
   margin: 4rem auto;
   display: flex;
@@ -37,7 +37,14 @@ body{
   * Gradient link: https://www.css-gradient.com/?c1=00b9fc&c2=0a0a0a&gt=r&gd=dcc
   */
     /* background: #00B9FC; */
-    background: radial-gradient(at center, #00b9fc9c, #0a0a0a40);
+    /* background: radial-gradient(at center, #00b9fc9c, #0a0a0a40); */
+
+
+    background-image: radial-gradient(circle farthest-corner at center top, hsla(196, 100%, 49%, 0.701) 0%, hsl(0, 0%, 0%) 40%);
+    ;
+
+    
+
 }
 
 .nav-btn{
