@@ -1,0 +1,31 @@
+
+
+
+:root {
+    --BGCOLOR: #000000;
+    --SECONDCOLOR: #00b9fc;
+}
+
+.dark-mode {
+    --BGCOLOR: #000000;
+    --SECONDCOLOR: #00b9fc;
+}
+
+.light-mode {
+    --BGCOLOR: #ffffff;
+    --SECONDCOLOR: #000080;
+}
+
+.about-section{
+    width: 90%;
+  border: 2px solid gray;
+  margin: 0px auto;
+  padding: 0px 0.2rem;
+}
+.about-section h1{
+    text-align: center;
+    color: var(--SECONDCOLOR);
+}
+.about-section p{
+    text-align: justify;
+}

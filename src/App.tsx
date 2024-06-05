@@ -1,4 +1,6 @@
+import About from "./components/About"
 import Navbar from "./components/Navbar"
+import Skills from "./components/Skills"
 
 
 function App() {
@@ -6,7 +8,8 @@ function App() {
   return (
     <>
     <Navbar/>
-    <h1>lmao</h1>
+    <About/>
+    <Skills/>
     </>
   )
 }
