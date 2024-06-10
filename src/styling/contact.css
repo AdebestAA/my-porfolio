@@ -12,6 +12,9 @@
     margin: auto;
     
 }
+.contact-section{
+    margin-top: 1rem;
+}
 .email{
     background-color: var(--BGCOLOR);
     /* border: 2px solid var(--SECONDCOLOR); */
@@ -46,13 +49,14 @@
     background-color: var(--SECONDCOLOR);
     border: none;
     border-radius: 5px;
-    padding: 5px 0px;
+    padding: 10px 0px;
     font-weight: 900;
     text-transform: uppercase;
+    font-size: 1rem;
 }
-::placeholder{
+/* ::placeholder{
     font-weight: bold;
-}
+} */
 .contact-paragraph{
     text-align: center;
 }
@@ -63,7 +67,7 @@
 }
 .contact-links{
     text-align: center;
-    margin-block:1rem ;
+    margin-block:0.3rem ;
 }
 .contact-links a{
     font-size: 1.4rem;
@@ -71,7 +75,7 @@
     margin:0px .5rem ;
 }
 .or{
-    margin-block: 1rem;
+    margin-block: 0.8rem;
     text-align: center;
     position: relative;
     font-weight: 700;

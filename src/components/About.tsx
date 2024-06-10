@@ -7,7 +7,7 @@ const About = () => {
 
   return (
 <section className="about-section">
-  <div className="intro">Hi there,<span className={screenLoad ? "showIntroSpan" : "closeIntroSpan"}>I'm Adebest</span></div>
+  <div className={screenLoad ? "intro showIntroSpan" : "closeIntroSpan intro"}>Hi there👋,<span >I'm Adebest</span> and i really enjoy building stuff😉</div>
     <h1>
         Adebest Adeniran
     </h1>

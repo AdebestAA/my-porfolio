@@ -21,6 +21,7 @@
   /* border: 2px solid gray; */
   margin: 0px auto;
   padding: 0px 0.2rem;
+  overflow-y: hidden;
 }
 .about-section h1{
     text-align: center;
@@ -31,10 +32,11 @@
 }
 .intro{
     text-align: center;
-    font-family: cursive;
+    /* font-family: cursive; */
     font-weight: 500;
     font-size: 1.3rem;
     overflow: hidden;
+    transition: all 1s linear;
 }
 .intro span {
     font-weight: 900;

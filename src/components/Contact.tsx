@@ -5,7 +5,7 @@ import { FaSquareTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 const Contact = ():ReactElement => {
   return (
- <section>
+ <section className="contact-section">
 <p className="contact-paragraph">you've got projects,gigs or a role for me?</p>
 <form action="">
 <input type="email"
