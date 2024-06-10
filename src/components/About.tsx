@@ -1,8 +1,13 @@
+import { useContext } from "react"
 import "../styling/about.css"
+import { AppContext } from "../AppContext"
 
 const About = () => {
+  const {screenLoad} = useContext(AppContext)
+
   return (
 <section className="about-section">
+  <div className="intro">Hi there,<span className={screenLoad ? "showIntroSpan" : "closeIntroSpan"}>I'm Adebest</span></div>
     <h1>
         Adebest Adeniran
     </h1>

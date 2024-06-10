@@ -1,0 +1,132 @@
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+:root {
+    --BGCOLOR: #000000;
+    --SECONDCOLOR: #00b9fc;
+    --TEXTCOLOR: #aaaaaa;
+}
+.projects-section{
+    /* background-color: red; */
+}
+
+.projects {
+    text-align: center;
+    -webkit-background-clip: text;
+    text-transform: capitalize;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0rem;
+    color: #0000002b;
+    animation-name: changeGradient;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes changeGradient {
+    0% {
+        background-image: linear-gradient(#10aae2, #082aec);
+    }
+
+    50% {
+        background-image: linear-gradient(#ff0898, #082aec);
+
+    }
+
+    100% {
+        background-image: linear-gradient(#ff0898, #036697);
+
+    }
+}
+
+.each-project-container{
+    margin-top: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    padding-block: 1rem;
+   
+}
+.each-project{
+    width: 90%;
+    padding: 0.5rem 0.2rem;
+    /* border:1px solid skyblue; */
+    box-shadow: 0px 0px 8px 2px var(--SECONDCOLOR) ;
+    border-radius: 5px; 
+    margin-inline:  auto;
+    font-family:"Lobster", sans-serif;
+    padding: 1rem 0px;
+    text-align: center;
+    background-image: radial-gradient(circle farthest-corner at right top, hsla(196, 100%, 50%, 0.748) -10%, #000000 40%);
+ 
+    /* background-image: radial-gradient( top to right var(--SECONDCOLOR) 5%,var(--BGCOLOR) 50%); */
+    
+}
+.about{
+  text-align: justify;
+  padding: 0.5rem;
+  font-family: cursive;
+  line-height: 1.2rem;
+  
+}
+.made-with{
+    font-style:oblique;
+   
+    font-weight: 600;
+    margin-top: 0.5rem;
+    text-decoration: underline;
+}
+
+
+.project-name{
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--SECONDCOLOR);
+}
+.links-and-tools{
+    margin-top: 0.7rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.links-and-tools .tools{
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    padding: 0.1rem
+    /* display: flex; */
+  
+    
+}
+
+
+.links-and-tools .tools span{
+border: 1px solid gray;
+display: inline-block;
+margin-inline: 4px;
+margin-block: 3px;
+padding-inline: 5px;
+border-radius: 6px;
+padding-top: 4px;
+
+}
+
+.links-and-tools .links {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: start;
+
+
+}
+.links-and-tools .links a{
+    margin: 0.3rem 5px;
+    font-size:1.5rem;
+    color: rgb(7, 83, 113);
+}

@@ -5,18 +5,21 @@ import "../styling/skills.css"
 const Skills = () => {
   return (
     <div>
-      <h1>skills/tools</h1>
+      <h1 className="skill-header">skills/tools</h1>
 
       <article className="skill-container">
 {skillsData.map((item:skillsDataType,index:number)=>{
 
   return (
-    <section key={item.id} className={item.class}>
+      <aside className="skill-aside">
+    <section key={item.id} className={`${item.class} ${index % 2 === 0 ? "left-to-right" : "right-to-left"}`}>
+
       <div className="svg-icon-container">
       {item.icon}
       </div>
      <h5>{item.name}</h5>
     </section>
+      </aside>
   )
 })}
       </article>

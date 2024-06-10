@@ -1,0 +1,17 @@
+:root {
+    --BGCOLOR: #000000;
+    --SECONDCOLOR: #00b9fc;
+    --TEXTCOLOR: #aaaaaa;
+}
+
+.footer{
+text-align: center;
+font-size: 1.2rem;
+margin-top: 10px;
+}
+
+.footer p{
+    color: var(--SECONDCOLOR);
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}

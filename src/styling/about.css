@@ -18,7 +18,7 @@
 
 .about-section{
     width: 90%;
-  border: 2px solid gray;
+  /* border: 2px solid gray; */
   margin: 0px auto;
   padding: 0px 0.2rem;
 }
@@ -29,3 +29,23 @@
 .about-section p{
     text-align: justify;
 }
+.intro{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+.intro span {
+    font-weight: 900;
+    transition: all 1s linear;
+    display: inline-block;
+}
+
+.showIntroSpan {
+    transform: translateY(0%);
+}
+.closeIntroSpan{
+    transform: translateY(-100%);
+}
+
