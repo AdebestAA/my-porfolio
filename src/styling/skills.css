@@ -83,12 +83,21 @@ background-image: linear-gradient(#10aae2, #082aec);
     width: 90%;
    padding: 10px 0px;
     margin: auto;
-
+}
+.item-name{
     
+    text-align: center;
+}
+.svg-icon-container{
+  
+    max-height: 80%;
+
 }
 .svg-icon{
-    width: 80px;
- height: 80px;   
+display: block;
+margin: 0px auto;    
+    width: 90%;
+    height:80px ;  
 }
 
 

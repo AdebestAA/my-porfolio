@@ -17,7 +17,7 @@ const Skills = () => {
       <div className="svg-icon-container">
       {item.icon}
       </div>
-     <h5>{item.name}</h5>
+     <h5 className="item-name">{item.name}</h5>
     </section>
       </aside>
   )
