@@ -61,6 +61,7 @@ word-spacing:-0.1rem;
 .myname{
     color: var(--SECONDCOLOR);
     text-transform: uppercase;
+    font-weight: 700;
 }
 .myinfo{
     margin: 1rem 0px;

@@ -30,7 +30,7 @@ const {projectRef} = useContext(AppContext)
   </span>
 })}</aside>
 <aside className="links">
-<a href={item.github}><IoLogoGithub/></a>
+<a href={item.github} target="_blank"><IoLogoGithub/></a>
 <a href={item.link}>< TbWorld/></a>
 </aside>
 </div>
