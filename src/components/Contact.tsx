@@ -1,4 +1,4 @@
-import { ReactElement, useContext, useEffect, useRef } from "react"
+import { ReactElement, useContext } from "react"
 import "../styling/contact.css"
 import { IoLogoGithub } from "react-icons/io5";
 import { FaSquareTwitter } from "react-icons/fa6";
