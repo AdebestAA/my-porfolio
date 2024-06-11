@@ -42,8 +42,8 @@ body{
   justify-content: space-between;
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  border: 2px solid #5f5f5f;
-
+  /* border: 2px solid #5f5f5f; */
+  box-shadow: inset 0px 0px 5px 3px var(--SECONDCOLOR);
   /*
   * Created with https://www.css-gradient.com
   * Gradient link: https://www.css-gradient.com/?c1=00b9fc&c2=0a0a0a&gt=r&gd=dcc
@@ -62,7 +62,8 @@ body{
 .nav-btn{
   border: none;
   background-color: transparent;
-  font-weight: 500;
+  font-weight: 700;
+  /* letter-spacing: 0.1rem; */
   /* color: #bdb2b2; */
   color:var(--SECONDCOLOR);
   

@@ -18,7 +18,7 @@
 .email{
     background-color: var(--BGCOLOR);
     /* border: 2px solid var(--SECONDCOLOR); */
-    box-shadow: 0px 0px 3px 1px var(--SECONDCOLOR);
+    box-shadow:inset 0px 0px 5px 3px var(--SECONDCOLOR);
     margin-block: 1rem;
     height: 2rem;
     border-radius: 10px;
@@ -38,7 +38,7 @@
     outline: none;
     /* border: 2px solid var(--SECONDCOLOR); */
     padding:10px ;
-    box-shadow: 0px 0px 3px 1px var(--SECONDCOLOR);
+    box-shadow:inset 0px 0px 5px 2px var(--SECONDCOLOR);
     border-radius: 10px;
     color: var(--TEXTCOLOR);
     border: none;
