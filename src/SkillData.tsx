@@ -3,10 +3,11 @@ import { FaHtml5 } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+// import { SiTailwindcss } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import {  skillsDataType } from "./types";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 
 export const skillsData:skillsDataType[] = [
@@ -38,7 +39,7 @@ export const skillsData:skillsDataType[] = [
         id:5,
         name:"Taiwlind CSS",
         class:"skill tailwind",
-        icon:<SiTailwindcss className="svg-icon"/>,
+        icon:<RiTailwindCssFill className="svg-icon"/>,
     },
     {
         id:6,

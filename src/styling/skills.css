@@ -36,14 +36,14 @@ body{
 
 @keyframes  changeGradient{
     0%{
-background-image: linear-gradient(#10aae2, #082aec);
+background-image: linear-gradient(#00bbff, #2a2d3e);
     }
     50%{
-        background-image: linear-gradient(#ff0898, #082aec);
+        background-image: linear-gradient(#03bcff, #1e1f23);
   
     }
     100%{
-    background-image: linear-gradient(#ff0898, #036697);
+    background-image: linear-gradient(#2a2d3e, #02abff);
    
     }
 }

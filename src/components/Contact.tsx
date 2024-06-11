@@ -1,12 +1,18 @@
-import { ReactElement } from "react"
+import { ReactElement, useContext, useEffect, useRef } from "react"
 import "../styling/contact.css"
 import { IoLogoGithub } from "react-icons/io5";
 import { FaSquareTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
+import { AppContext } from "../AppContext";
 const Contact = ():ReactElement => {
+const {contactRef} = useContext(AppContext)
+
+
+
   return (
- <section className="contact-section">
-<p className="contact-paragraph">you've got projects,gigs or a role for me?</p>
+ <section className="contact-section" ref={contactRef}>
+<p className="contact-paragraph">You've got projects,gigs or a role for me?</p>
+
 <form action="">
 <input type="email"
 placeholder="email"

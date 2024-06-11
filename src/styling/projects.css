@@ -36,16 +36,16 @@
 
 @keyframes changeGradient {
     0% {
-        background-image: linear-gradient(#10aae2, #082aec);
+        background-image: linear-gradient(#00bbff, #2a2d3e);
     }
 
     50% {
-        background-image: linear-gradient(#ff0898, #082aec);
+        background-image: linear-gradient(#03bcff, #1e1f23);
 
     }
 
     100% {
-        background-image: linear-gradient(#ff0898, #036697);
+        background-image: linear-gradient(#2a2d3e, #02abff);
 
     }
 }
@@ -66,9 +66,10 @@
     margin-inline:  auto;
     /* font-family:"Lobster", sans-serif; */
     /* font-family: "Spicy Rice", serif; */
+    font-family: Arial, Helvetica, sans-serif;
     padding: 1rem 0px;
     text-align: center;
-    background-image: radial-gradient(circle farthest-corner at right top, hsla(196, 100%, 50%, 0.861) -10%, #000000 40%);
+    background-image: radial-gradient(circle farthest-corner at right top, #00bbffdc -10%, #0e0f0f 40%);
  
     /* background-image: radial-gradient( top to right var(--SECONDCOLOR) 5%,var(--BGCOLOR) 50%); */
     
@@ -79,6 +80,8 @@
   /* font-family: cursive; */
     font-weight: 500;
   line-height: 1.2rem;
+word-spacing: 0.1rem;
+
   
 }
 .made-with{

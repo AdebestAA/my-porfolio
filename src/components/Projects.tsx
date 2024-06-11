@@ -3,10 +3,15 @@ import { ProjectsData } from "../ProjectsData"
 import { TbWorld } from "react-icons/tb";
 import { IoLogoGithub } from "react-icons/io5";
 import { projectsDataType } from "../types";
+import { AppContext } from "../AppContext";
+import { useContext } from "react";
 
 const Projects = () => {
+
+const {projectRef} = useContext(AppContext)
+
   return (
-  <section className="projects-section">
+  <section className="projects-section" id="projects" ref={projectRef} >
 <h1 className="projects">projects</h1>
 <article className="each-project-container">
 {ProjectsData.map((item:projectsDataType)=>{

@@ -20,6 +20,9 @@
   --SECONDCOLOR:#000080;
 
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   background-color: var(--BGCOLOR);
