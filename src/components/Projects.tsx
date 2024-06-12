@@ -11,7 +11,7 @@ const Projects = () => {
 const {projectRef} = useContext(AppContext)
 
   return (
-  <section className="projects-section" id="projects" ref={projectRef} >
+  <section className="projects-section" ref={projectRef} >
 <h1 className="projects">projects</h1>
 <article className="each-project-container">
 {ProjectsData.map((item:projectsDataType)=>{
@@ -31,7 +31,7 @@ const {projectRef} = useContext(AppContext)
 })}</aside>
 <aside className="links">
 <a href={item.github} target="_blank"><IoLogoGithub/></a>
-<a href={item.link}>< TbWorld/></a>
+<a href={item.link}  target="_blank">< TbWorld/></a>
 </aside>
 </div>
   </div>

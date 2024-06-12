@@ -1,4 +1,4 @@
-import { ReactElement, ReactNode, createContext, useEffect, useRef, useState } from "react";
+import { ReactElement, ReactNode, SyntheticEvent, createContext, useEffect, useRef, useState } from "react";
 import { contextType } from "./types";
 
 const initialContext:contextType = {
@@ -16,6 +16,10 @@ export const AppProvider = ({children}:{children:ReactElement}):ReactNode=>{
 const [screenLoad,setScreenLoad] = useState<boolean>(false)
 const contactRef = useRef<HTMLElement | null>(null)
 const projectRef = useRef<HTMLElement | null>(null)
+// const [userInput,setUserInput] = useState({
+//     email:"",
+//     message:""
+// })
 
 const moveToContact = ()=>{
     let contactRefEl = contactRef.current as HTMLElement
@@ -29,6 +33,11 @@ const moveToProject = ()=>{
         behavior:"smooth"
     })
 }
+// const handleSubmit = (e:SyntheticEvent)=>{
+// e.preventDefault()
+// console.log("working");
+
+// }
 
 useEffect(()=>{
 setScreenLoad(true)

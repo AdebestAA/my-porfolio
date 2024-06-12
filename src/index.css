@@ -40,7 +40,7 @@ body{
   margin-bottom: 1.5rem;
  display: flex;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.6rem;
   border-radius: 20px;
   /* border: 2px solid #5f5f5f; */
   box-shadow: inset 0px 0px 5px 3px var(--SECONDCOLOR);
@@ -66,5 +66,11 @@ body{
   /* letter-spacing: 0.1rem; */
   /* color: #bdb2b2; */
   color:var(--SECONDCOLOR);
-  
+}
+
+.nav-btn:hover,.nav-btn:focus{
+    background-color: var(--SECONDCOLOR);
+      border-radius: 20px;
+      padding: 5px;
+      color: var(--BGCOLOR);
 }

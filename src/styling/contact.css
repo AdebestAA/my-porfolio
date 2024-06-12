@@ -57,6 +57,10 @@
 /* ::placeholder{
     font-weight: bold;
 } */
+
+.send-btn:focus,.send-btn:hover{
+    opacity: 0.5;
+}
 .contact-paragraph{
     text-align: center;
 }
