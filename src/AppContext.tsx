@@ -1,4 +1,4 @@
-import { ReactElement, ReactNode, SyntheticEvent, createContext, useEffect, useRef, useState } from "react";
+import { ReactElement, ReactNode, createContext, useEffect, useRef, useState } from "react";
 import { contextType } from "./types";
 
 const initialContext:contextType = {
