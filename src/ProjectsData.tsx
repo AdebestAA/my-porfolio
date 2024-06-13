@@ -52,7 +52,7 @@ export const ProjectsData:projectsDataType[] = [
         name:"Dictionary",
         madeWith:"Javascript",
         about:"A website that allows users to search for words and it will provide them with different definitions of what they've searched.Built with HTML/CSS/JavaScript and a third party API",
-        tools:["React js","CSS","TypeScript","Gsap"],
+        tools:["HTML","CSS","JavaScript"],
         link:"https://dictionary-myproject.vercel.app/",
         github:""
     },

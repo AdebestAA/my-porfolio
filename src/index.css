@@ -65,12 +65,16 @@ body{
   font-weight: 700;
   /* letter-spacing: 0.1rem; */
   /* color: #bdb2b2; */
+
+  border-radius: 20px;
+    padding:3px 10px;
   color:var(--SECONDCOLOR);
 }
 
 .nav-btn:hover,.nav-btn:focus{
     background-color: var(--SECONDCOLOR);
       border-radius: 20px;
-      padding: 5px;
+      padding:2px 10px;
+      font-weight: 700;
       color: var(--BGCOLOR);
 }

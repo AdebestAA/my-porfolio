@@ -11,8 +11,8 @@ const Skills = () => {
 {skillsData.map((item:skillsDataType,index:number)=>{
 
   return (
-      <aside className="skill-aside">
-    <section key={item.id} className={`${item.class} ${index % 2 === 0 ? "left-to-right" : "right-to-left"}`}>
+      <aside className="skill-aside"  key={item.id}>
+    <section className={`${item.class} ${index % 2 === 0 ? "left-to-right" : "right-to-left"}`}>
 
       <div className="svg-icon-container">
       {item.icon}
