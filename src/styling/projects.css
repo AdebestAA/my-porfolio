@@ -72,6 +72,17 @@
     /* background-image: radial-gradient( top to right var(--SECONDCOLOR) 5%,var(--BGCOLOR) 50%); */
     
 }
+.see-more{
+    width: 90%;
+    margin-inline: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+}
+.my-github-link{
+    text-decoration: none;
+    color: var(--SECONDCOLOR);
+    
+}
 .about{
   text-align: justify;
   padding: 0.5rem;

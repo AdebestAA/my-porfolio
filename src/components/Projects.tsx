@@ -37,6 +37,8 @@ const {projectRef} = useContext(AppContext)
   </div>
 })}
 </article>
+<p className="see-more">kindly pay a visit to my <a 
+href="https://github.com/AdebestAA" className="my-github-link" >Github Page</a> to see more projects I have worked on</p>
   </section>
   )
 }
