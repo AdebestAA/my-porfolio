@@ -1,6 +1,8 @@
 import { ReactElement, ReactNode, SyntheticEvent, createContext, useEffect, useRef, useState } from "react";
 import { contextType, typeErrorMsg, typeUserInput } from "./types";
 
+import emailjs from '@emailjs/browser';
+
 const initialContext:contextType = {
     screenLoad:false,
     moveToContact:()=>{}, 
@@ -14,7 +16,8 @@ const initialContext:contextType = {
         emailErrorMsg:"",
         messageErrorMsg:""
     },
-    setErrorMsg:()=>{}
+    setErrorMsg:()=>{},
+    form:""
 }
 
 export const AppContext  = createContext<contextType>(initialContext)
@@ -32,6 +35,8 @@ const [errorMsg,setErrorMsg] = useState<typeErrorMsg>({
       emailErrorMsg:"",
     messageErrorMsg:""
 })
+
+const form = useRef<HTMLFormElement | null | string>(null)
 const moveToContact = ()=>{
     let contactRefEl = contactRef.current as HTMLElement
     contactRefEl.scrollIntoView({
@@ -71,6 +76,24 @@ if (!emailRegEx.test(userInput.email)) {
     setErrorMsg({...errorMsg,emailErrorMsg:"invalid email address"})
         return
     }
+const formElement = form.current as HTMLFormElement | string
+
+emailjs
+      .sendForm('service_mj9ivje', 'template_85v5czo', formElement, {
+        publicKey: 'U5d9Ew7d6iIlfNgoI',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          setUserInput({email:"",message:""})
+          window.alert("message sent")
+        },
+        (error) => {
+            window.alert("failed..., "+ error.text)
+            console.log('FAILED...', error.text);
+           
+        },
+      );
 
 }
 
@@ -109,7 +132,8 @@ useEffect(()=>{
         userInput,
         handleSubmit,
         errorMsg,
-        setErrorMsg
+        setErrorMsg,
+        form
         }}>
         {children}
     </AppContext.Provider>

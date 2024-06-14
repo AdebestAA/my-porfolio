@@ -41,7 +41,7 @@ word-spacing:-0.1rem;
     letter-spacing: 0.2rem;
     overflow: hidden;
     transition: all 1s linear;
-    /* background-color: red; */
+    
     
     
 }
@@ -68,4 +68,11 @@ word-spacing:-0.1rem;
     box-shadow:inset 0px 0px 4px 0px var(--SECONDCOLOR);
     padding:1rem 0.5rem;
    
+}
+
+@media screen  and (min-width:600px){
+    .about-section{
+        width: 65%;
+       margin-top: 2rem;
+    }
 }

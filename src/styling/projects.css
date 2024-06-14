@@ -15,9 +15,7 @@
     --SECONDCOLOR: #00b9fc;
     --TEXTCOLOR: #aaaaaa;
 }
-.projects-section{
-    /* background-color: red; */
-}
+/* .projects-section {} */
 
 .projects {
     text-align: center;
@@ -158,5 +156,37 @@ padding-top: 3px;
     }
     100%{
         opacity: 0.3;
+    }
+}
+
+@media screen  and (min-width:600px){
+    .projects-section {
+        overflow-y: scroll;
+        height:800px ;
+     
+    }
+    .projects-section::-webkit-scrollbar {
+    width: 10px;
+
+    }
+
+    .projects-section::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    /* border-top-right-radius: 10px; */
+    /* border-bottom-right-radius: 10px; */
+    }
+
+    .projects-section::-webkit-scrollbar-thumb {
+background-color: var(--SECONDCOLOR);
+    border-radius: 5px;
+    cursor: pointer;
+
+
+    }
+
+    .projects-section::-webkit-scrollbar-thumb:hover {
+    background-color:var(--SECONDCOLOR);
+
     }
 }

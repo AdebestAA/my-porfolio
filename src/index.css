@@ -78,3 +78,19 @@ body{
       font-weight: 700;
       color: var(--BGCOLOR);
 }
+
+@media screen and (min-width:600px){
+  .navbar{
+    width: 300px;
+  }
+  .about-skills{
+display: grid;
+grid-template-columns: 1fr 1fr;
+  margin-top: 4rem;
+  }
+  .projects-contact{
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+  }
+}

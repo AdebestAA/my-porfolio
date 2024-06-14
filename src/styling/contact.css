@@ -1,3 +1,15 @@
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.spicy-rice-regular {
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 :root {
     --BGCOLOR: #000000;
     --SECONDCOLOR: #00b9fc;
@@ -108,7 +120,6 @@
 .contact-me-header {
     text-align: center;
     -webkit-background-clip: text;
-    text-transform: capitalize;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     font-size: 2rem;
@@ -157,4 +168,13 @@
     100% {
         opacity: 0.5;
     }
+}
+@media screen and (min-width:600px) {
+        .contact-section {
+        margin-top: 0rem;
+
+        }
+        .contact-me-header{
+            margin: 0rem;
+        }
 }

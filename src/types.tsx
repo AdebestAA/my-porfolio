@@ -23,4 +23,5 @@ export type contextType = {
     handleSubmit:(e:SyntheticEvent)=> void,
     errorMsg:typeErrorMsg,
     setErrorMsg:React.Dispatch<React.SetStateAction<typeErrorMsg>>,
+    form: any
 }

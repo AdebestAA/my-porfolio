@@ -103,7 +103,7 @@ margin: 0px auto;
 }
 
 
-@media screen  and (max-width:600px){
+
     @keyframes animateSkillLeftToRight {
         0%{
         left: 0%;
@@ -126,4 +126,14 @@ margin: 0px auto;
             left: 70%;
         }
     }
-}
+
+    @media screen  and (min-width:600px){
+        .skill-container {
+        
+                width: 90%;
+                padding: 10px 0px;
+                padding-left: 15px;
+                margin: auto;
+                border: 2px solid var(--SECONDCOLOR);
+            }
+    }
