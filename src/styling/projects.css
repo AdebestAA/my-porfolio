@@ -201,3 +201,8 @@ background-color: var(--SECONDCOLOR);
 
     }
 }
+.want-to-see-more{
+    color: var(--SECONDCOLOR);
+    text-align: center;
+    margin: 0.5rem 0px;
+}
