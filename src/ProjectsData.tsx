@@ -8,7 +8,7 @@ export const ProjectsData:projectsDataType[] = [
         madeWith:"Javascript",
         about:"I designed the simulation page,login page and sign up page of a medical website",
         tools:["Next js","Javascript","Tailwind CSS"],
-        link:"medscape.vercel.app",
+        link:"https://medscape.vercel.app",
         github:"https://github.com/AdebestAA/medscape"
     },
     {
