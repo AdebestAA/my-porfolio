@@ -26,7 +26,7 @@ export const ProjectsData:projectsDataType[] = [
         madeWith:"Typescript",
         about:"*****",
         tools:["Next js","Typescript","Tailwind CSS","Gsap","MongoDb"],
-        link:"paige-demo-seven.vercel.app",
+        link:"https://paige-demo-seven.vercel.app",
         github:"https://github.com/AdebestAA/paige-demo"
     },
     {
