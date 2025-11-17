@@ -54,6 +54,9 @@ const emailRegEx = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/
 // handleSubmit button
 const handleSubmit = (e:SyntheticEvent)=>{
 e.preventDefault()
+// console.log(userInput);
+
+// return
 
 if (!userInput.message && !userInput.email) {
       setErrorMsg({emailErrorMsg:"input field is empty",messageErrorMsg:"message field is empty"})
@@ -78,7 +81,8 @@ if (!emailRegEx.test(userInput.email)) {
     }
 const formElement = form.current as HTMLFormElement | string
 
-emailjs
+if (form.current) {
+    emailjs
       .sendForm('service_mj9ivje', 'template_85v5czo', formElement, {
         publicKey: 'U5d9Ew7d6iIlfNgoI',
       })
@@ -94,6 +98,7 @@ emailjs
            
         },
       );
+}
 
 }
 

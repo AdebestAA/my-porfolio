@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react"
 import "../styling/footer.css"
+import dayjs from "dayjs"
 
 const Footer = () => {
   const [time,setTime] = useState<string>("")
   const [date,setDate] = useState<string>("") 
+  // const formattedDate:string = dayjs().format("D,MMM,YYYY")
 
   const addZero = (value : number | string): number | string=>{
 
@@ -34,7 +36,7 @@ const Footer = () => {
   },[time])
   
   return (
-  <footer className="footer">
+  <footer  className="footer text-xs">
    <span>{date}</span>,
    <span>{time}</span>
    <p>Adebest</p>

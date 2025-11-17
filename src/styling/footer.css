@@ -11,8 +11,8 @@ margin-top: 10px;
 }
 
 .footer p{
-    color: var(--SECONDCOLOR);
-    font-family:Georgia, 'Times New Roman', Times, serif
+    /* color: var(--SECONDCOLOR); */
+    /* font-family:Georgia, 'Times New Roman', Times, serif */
 }
 
 @media screen  and (min-width:600px){
