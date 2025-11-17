@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import "../styling/footer.css"
-import dayjs from "dayjs"
+
 
 const Footer = () => {
   const [time,setTime] = useState<string>("")

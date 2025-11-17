@@ -1,5 +1,4 @@
-import { useState } from "react";
-import LandingPage from "./components/former-landing-page/LandingPage"
+
 import useTheme from "./hooks/useTheme";
 import { Github, Mail, Moon, Sun,Twitter, Youtube,  } from "lucide-react";
 import ProjectsComponent from "./components/ProjectsComponent";
