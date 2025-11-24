@@ -17,7 +17,7 @@ const projectLists = [
     },
     {
         id:3,
-        logo:"/vest-logo.png",
+        logo:"",
         title:"Admin Dashboard",
         about:"An Admin dashboard with different charts showing stats and records",
         link:"https://admin-dashboard-xyz.vercel.app/"
@@ -31,21 +31,21 @@ const projectLists = [
     },
     {
         id:5,
-        logo:"/vest-logo.png",
+        logo:"",
         title:"Paige",
         about:"",
         link:"https://paige-demo-seven.vercel.app/"
     },
     {
         id:6,
-        logo:"/vest-logo.png",
+        logo:"",
         title:"Medscape",
         about:"Patient Case Simulations",
         link:"https://medscape.vercel.app/"
     },
     {
         id:7,
-        logo:"/vest-logo.png",
+        logo:"",
         title:"Food Reecipe",
         about:"",
         link:"https://food-recipe-fit.vercel.app/"
@@ -63,8 +63,8 @@ const ProjectsComponent = () => {
 
             return <a href={item.link} className='inline-block'  target='_blank' key={index + 1}>
 <div className='flex gap-x-4 border-borderOne border-1 rounded-md w-full p-2 '>
-    <figure className='border-borderOne  rounded-md w-[40px] h-[40px] flex items-center justify-center'>
-<img src={item.logo} alt={item.title} />
+    <figure className='border-borderOne border-1  rounded-md w-[40px] h-[40px] flex items-center justify-center'>
+<img src={item.logo ? item.logo : "/not-available.png"} alt={item.title} />
 
     </figure>
 <div>
