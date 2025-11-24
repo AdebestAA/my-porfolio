@@ -3,6 +3,7 @@ import useTheme from "./hooks/useTheme";
 import { Github, Mail, Moon, Sun,Twitter, Youtube,  } from "lucide-react";
 import ProjectsComponent from "./components/ProjectsComponent";
 import Footer from "./components/Footer";
+import TechAndSkills from "./components/tech-and-skils";
 
 
 
@@ -44,19 +45,34 @@ function App() {
     <div className="mx-auto md:w-[50%] w-[90%] py-4 md:mt-16 text-textOne">
 
     <header className="justify-between flex ">
-      <button className="">PlayGround</button>
+    
+      <a href="https://playground.adebest.com/" target="_blank"  className="text-red-500 font-semibold">playground</a>
 <button onClick={toggleTheme} className="text-textOne transition-all ease-in-out duration-500">{theme == "light" ? <Moon /> : <Sun />  }</button>
     </header>
     <article className="my-4">
     <h1 className=" font-semibold">Hi there 👋, I'm Adebest and I enjoy building stuff😉</h1>
 
-    <p className="my-4">I am Adeniran Adeseun, a Website Developer that builds visually appealing, high-performance and highly optimized websites</p>
+<div className="my-6">
+
+ <p> Nice to have you in my corner of the Internet where I showcase what I have built, what I'm currently building and also my skills.</p>
+ <p>I am <span className="font-semibold">Adeniran Adeseun </span> FrontEnd Web developer that builds visually appealing, high-performance, highly optimized and user-friendly websites</p>
+<br />
+<br />
+ <p> Quick one, years ago when I was just starting out in web development, I built this quiz project and I would like you to check it out, trust me it's wouldn't take much of your time😁😁..it's a country-related/geography-based quiz that you would really enjoy. Cick <a  target='_blank' href="https://this-quiz-project.vercel.app/" className="text-red-500">here</a> to check it out.</p>
+<br />
+<br />
+<p>  Growing up as a kid, I really loved animations and visual effects and as you can guess the love hasn't faded away and that's the reason I created a dedicated website to be my digital playground.The website will be  showcasing the smooth, fun, clean,and web-based animations and visual effects I have worked on and would be working on. Cick <a  target='_blank' href="https://playground.adebest.com" className="text-red-500">here</a> to check out my  playground😜</p>
+
+</div>
     </article>
+<TechAndSkills/>
+
+<ProjectsComponent/>
 
     {/* Contact */}
 
 <div className="my-8">
-  <h1 className="text-center font-semibold pb-6">CONTACTS</h1>
+  <h1 className="text-center font-semibold pb-6">CONTACT</h1>
 
   <div className="flex justify-evenly">
    {contact.map((item,index)=>{
@@ -71,9 +87,6 @@ return <a href={item.link} key={index + 1} target="_blank" className="opacity-an
    })}
   </div>
 </div>
-
-
-<ProjectsComponent/>
 <Footer/>
     </div>
   )

@@ -2,6 +2,13 @@
 
 const projectLists = [
     {
+        id:8,
+        logo:"streetops.png",
+        title:"StreetOps",
+        about:"The backbone for your grind",
+        link:"https://www.streetops.ng/"
+    },
+    {
         id:1,
         logo:"/experts-corner.png",
         title:"Expert's Corner",
@@ -33,7 +40,7 @@ const projectLists = [
         id:5,
         logo:"",
         title:"Paige",
-        about:"",
+        about:"********",
         link:"https://paige-demo-seven.vercel.app/"
     },
     {
@@ -47,7 +54,7 @@ const projectLists = [
         id:7,
         logo:"",
         title:"Food Reecipe",
-        about:"",
+        about:"find your favourite recipe",
         link:"https://food-recipe-fit.vercel.app/"
     },
 ]
