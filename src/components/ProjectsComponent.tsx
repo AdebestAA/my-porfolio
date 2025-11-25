@@ -19,14 +19,14 @@ const projectLists = [
         id:2,
         logo:"/vest-logo.png",
         title:"VestVale Estate",
-        about:"Vestvale Estate is a visionary real estate development based in Nigeria",
+        about:"A visionary real estate development company",
         link:"https://vestvaleestate.com/"
     },
     {
         id:3,
         logo:"",
         title:"Admin Dashboard",
-        about:"An Admin dashboard with different charts showing stats and records",
+        about:"A dashboard with different charts",
         link:"https://admin-dashboard-xyz.vercel.app/"
     },
     {
