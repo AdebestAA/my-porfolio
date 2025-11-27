@@ -8,7 +8,7 @@ const TechAndSkills = () => {
         <li className='text-center flex flex-wrap justify-evenly items-center'>
 
         {skills.map((skill,index)=>{
-            return <li key={skill} className={`w-[40%] text-lg  text-start`}> {skill} </li>
+            return <li key={index}  className={`w-[40%] text-lg  text-start`}> {skill} </li>
             
         })}
         </li>
