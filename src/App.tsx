@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import TechAndSkills from "./components/tech-and-skils";
 import { parseTwemoji } from "./lib/ParseEmoji";
 import { useEffect } from "react";
+import PlaygroundPath from "./components/svgs/playground";
 
 
 
@@ -50,10 +51,10 @@ function App() {
 
     <div className="mx-auto md:w-[50%] w-[90%] py-4 md:mt-16 text-textOne">
 
-    <header className="justify-between flex pb-4">
+    <header className="justify-between items-center flex pb-4">
     
-      <a href="https://playground.adebest.com/" target="_blank"  className="text-red-500 font-semibold">playground</a>
-<button onClick={toggleTheme} className="text-textOne transition-all ease-in-out duration-500">{theme == "light" ? <Moon /> : <Sun />  }</button>
+      <a href="https://playground.adebest.com/" target="_blank"  className="text-red-500 font-semibold w-[100px] h-[40px] inline-flex items-center justify-center"><PlaygroundPath/></a>
+<button onClick={toggleTheme} className="text-textOne transition-all ease-in-out duration-500  ">{theme == "light" ? <Moon /> : <Sun />  }</button>
     </header>
     <article className="mb-4 mt-10">
     <h1 className=" font-semibold pb-8">Hi there 👋, I'm Adebest and I enjoy building stuff😉.</h1>
