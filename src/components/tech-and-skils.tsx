@@ -8,7 +8,7 @@ const TechAndSkills = () => {
         <section className='text-center flex flex-wrap gap-y-3 justify-between items-center '>
 
         {skills.map((skill,index)=>{
-            return <div key={index}  className={`md:w-[40%]  w-[45%]  text-start border-1 border-borderOne px-2 rounded-sm font-semibold`}> {skill} </div>
+            return <div key={index}  className={`md:w-[40%] text-[0.9rem] w-[45%]  text-start border-1 border-borderOne px-2 rounded-sm font-semibold`}> {skill} </div>
             
         })}
         </section>
