@@ -61,7 +61,7 @@ const projectLists = [
 const ProjectsComponent = () => {
   return (
     <article className='mt-8'>
-<h1 className='text-center font-semibold pb-4'>PROJECTS</h1>
+<h1 className='text-center font-bold pb-4'>PROJECTS</h1>
 
 
 <section className='flex flex-col gap-y-3'>
