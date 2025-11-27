@@ -4,14 +4,14 @@ const skills = ["HTML/CSS","Javascript","Typescript","ReactJs","NextJs","Tailwin
 const TechAndSkills = () => {
   return (
     <div className="mt-6 " >
- <h1 className="text-center font-bold">TECHNOLOGIES / SKILLS</h1>
-        <li className='text-center flex flex-wrap justify-evenly items-center'>
+ <h1 className="text-center font-bold pb-8">TECHNOLOGIES / SKILLS</h1>
+        <section className='text-center flex flex-wrap gap-y-3 justify-between items-center '>
 
         {skills.map((skill,index)=>{
-            return <li key={index}  className={`w-[40%] text-lg  text-start`}> {skill} </li>
+            return <div key={index}  className={`md:w-[40%]  w-[45%]  text-start border-1 border-borderOne px-2 rounded-sm font-semibold`}> {skill} </div>
             
         })}
-        </li>
+        </section>
     </div>
   )
 }
