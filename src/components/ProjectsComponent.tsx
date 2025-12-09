@@ -6,7 +6,7 @@ const projectLists = [
         logo:"streetops.png",
         title:"StreetOps",
         about:"The backbone for your grind",
-        link:"https://www.streetops.ng/"
+        link:"https://blogs.streetops.ng/"
     },
     {
         id:1,
